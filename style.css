@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    /*outline: solid 3px black;*/
+}
+
+ #wrapper{
+    width: 860px;
+    background-color: rgb(109, 124, 204);
+    margin: 0px auto;
+    padding: 15px;
+   }
+
+#header{
+    height: 40px;
+    background-color: green;
+  }
+
+#picture{
+    background-image: url("photo_of_me.jpg");
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 400px;
+    padding: 5px;
+    background-size: contain;
+}  
+
+#about{
+    display: inline-block;
+    height: 250px;
+    width: 435px;
+    padding: 5px;
+    background-color: rgb(128, 83, 0);
+}  
+
+.blocktitle
+{
+    height: 30px;
+    background-color: purple;
+    color: white;
+}
+
+.information{
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    background-color: teal;
+    margin: 10px 0px;
+}
+
+.information-top{
+    height: 100px;
+    background-color: orange;
+}
+
+.information-bottom{
+    height: 70px;
+    background-color: rgb(255, 81, 0);
+}
+
+#footer{
+    height: 40px;
+    background-color: red;
+   
+}
