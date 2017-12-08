@@ -8,64 +8,147 @@
     width: 860px;
     background-color: rgb(109, 124, 204);
     margin: 0px auto;
-    padding: 15px;
+    padding: 0px 20px 20px 0px;
    }
 
-#header{
-    height: 40px;
-    background-color: green;
+.header{
+    height: 60px;
+    background-color: #f9f9f9;
+    margin-left:20px;
   }
 
+.header h3{
+    display: inline-block;
+    margin: 15px 5px 5px 386px;
+}
+
+.header h1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 5px 10px;
+
+}
+
+
 #picture{
-    background-image: url('../Portfolio_images/photo_of_me.jpg');
+    background-image: url('./Portfolio_images/photo_of_me.jpg');
     
     display: inline-block;
     vertical-align: top;
     height: 250px;
-    width: 400px;
+    width: 365px;
     padding: 5px;
-    background-size: contain;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 20px;
 }  
 
-#about{
+h2{
+ color: white;
+}
+
+.about{
     display: inline-block;
-    height: 250px;
-    width: 435px;
-    padding: 5px;
-    background-color: rgb(128, 83, 0);
+    height: 258px;
+    width: 441px;
+    padding: 0px;
+    background-color: lightgray;
+    margin-left: 20px;
+    margin-top: 20px;
 }  
 
-.blocktitle
-{
-    height: 30px;
-    background-color: purple;
-    color: white;
+.about h2{
+    background-color: lightslategray;
+    padding: 10px 0px 10px 5px;
 }
 
-#maincontent{
+.about p{
+    padding: 10px 10px 0px 10px;
 
 }
 
-.information{
-    width: 250px;
+.about a{
+    padding: 20px 10px 0px 10px;
+    color: black;
+
+}
+
+.main_content{
+    margin-left: 20px;
+    background-color: rgb(109, 124, 204);
+    margin-top: 20px;
+}
+
+.main_content img{
+    width: 293px;
+    margin: 0px;
+}
+
+.columns {
+    width: 277px;
     
     display: inline-block;
-    background-color: teal;
-    margin: 10px 0px;
+    background-color: lightgray;
+    vertical-align: top;
 }
 
-.information-top{
-    height: 200px;
-    background-color: orange;
+.columns h2{
+    padding: 10px 0px 10px 5px;
+    background-color: lightslategray;
 }
 
-.information-bottom{
-    height: 140px;
-    background-color: rgb(255, 81, 0);
+.columns h4{
+    padding: 10px 0px 10px 5px;
 }
 
-#footer{
+
+.columns img{
+    width:269px;
+}
+
+.columns p{
+    height:181px;
+    padding-left: 10px;
+}
+
+.buttons img{
     height: 40px;
-    background-color: red;
+    width: 40px;
+    padding: 0px 0px 5px 10px;
+}
+
+.columns button{
+    margin: 10px 100px;
+}
+
+.buttons li{
+    display: inline-block;
+}
+
+
+
+.footer{
+    
+    background-color: #f9f9f9;
+    margin-left: 20px;
    
+}
+
+.footer p
+{
+	margin:0 auto;
+	width: 240px;
+}
+.footer ul {
+    width: 380px;
+    margin: 0 auto;
+
+}
+.footer ul li {
+	display:inline-block;
+}
+.footer img {
+	width: 25px;
+	height:25px;
+	
 }
